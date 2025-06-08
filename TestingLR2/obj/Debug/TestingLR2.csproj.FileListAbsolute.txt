@@ -1,0 +1,7 @@
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\bin\Debug\TestingLR2.exe.config
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\bin\Debug\TestingLR2.exe
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\bin\Debug\TestingLR2.pdb
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\obj\Debug\TestingLR2.csprojAssemblyReference.cache
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\obj\Debug\TestingLR2.csproj.CoreCompileInputs.cache
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\obj\Debug\TestingLR2.exe
+C:\Users\yurak\source\repos\TestingLR2\TestingLR2\obj\Debug\TestingLR2.pdb
