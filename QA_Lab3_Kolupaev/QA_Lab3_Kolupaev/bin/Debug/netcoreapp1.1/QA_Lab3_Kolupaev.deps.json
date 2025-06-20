@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "QA_Lab3_Kolupaev/1.0.0": {
+        "runtime": {
+          "QA_Lab3_Kolupaev.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QA_Lab3_Kolupaev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

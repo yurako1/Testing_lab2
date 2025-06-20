@@ -1,0 +1,182 @@
+\doxysection{QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle Class Reference}
+\label{class_q_a___lab3___kolupaev_1_1_rectangle}\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+
+
+Класс, представляющий прямоугольник в 2D-\/пространстве  
+
+
+
+
+Inheritance diagram for QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_q_a___lab3___kolupaev_1_1_rectangle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{class_q_a___lab3___kolupaev_1_1_rectangle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Rectangle} \textbf{ Add} (\textbf{ Rectangle} rect1, \textbf{ Rectangle} rect2)
+\begin{DoxyCompactList}\small\item\em Объединяет два прямоугольника в минимальный охватывающий \end{DoxyCompactList}\item 
+override int \textbf{ Calculate\+Area} ()
+\begin{DoxyCompactList}\small\item\em Вычисляет площадь прямоугольника \end{DoxyCompactList}\item 
+void \textbf{ Calculate\+Square\+Out} (out int rect)
+\begin{DoxyCompactList}\small\item\em Расчет площади с ограничением через out-\/параметр \end{DoxyCompactList}\item 
+void \textbf{ Calculate\+Square\+Ref} (ref int rect)
+\begin{DoxyCompactList}\small\item\em Расчет площади с модификацией ref-\/параметра \end{DoxyCompactList}\item 
+override void \textbf{ Display} ()
+\begin{DoxyCompactList}\small\item\em Выводит координаты углов в консоль \end{DoxyCompactList}\item 
+void \textbf{ Init} (int x1, int y1, int x2, int y2)
+\begin{DoxyCompactList}\small\item\em Инициализирует прямоугольник координатами углов \end{DoxyCompactList}\item 
+override void \textbf{ Read} ()
+\begin{DoxyCompactList}\small\item\em Считывает 4 координаты из консоли \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \textbf{ Shape}}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ Calculate\+Area} ()
+\begin{DoxyCompactList}\small\item\em Вычисляет площадь фигуры \end{DoxyCompactList}\item 
+void \textbf{ Display} ()
+\begin{DoxyCompactList}\small\item\em Отображает информацию о фигуре в консоли \end{DoxyCompactList}\item 
+void \textbf{ Read} ()
+\begin{DoxyCompactList}\small\item\em Считывает параметры фигуры из пользовательского ввода \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ bottom\+RightX}
+\item 
+int \textbf{ bottom\+RightY}
+\item 
+int \textbf{ top\+LeftX}
+\item 
+int \textbf{ top\+LeftY}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс, представляющий прямоугольник в 2D-\/пространстве 
+
+Реализует расчет площади по формуле\+: \[ S = |(x_2 - x_1)| \times |(y_2 - y_1)| \]
+
+
+\begin{DoxyImageNoCaption}
+  \mbox{\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{dot_inline_dotgraph_2}}
+\end{DoxyImageNoCaption}
+
+
+ 
+
+\label{doc-func-members}
+\doxysubsection{Member Function Documentation}
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!Add@{Add}}
+\index{Add@{Add}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{Add()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a843d0840b1ee8de154b3ed59c0c7c062} 
+\textbf{ Rectangle} QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Add (\begin{DoxyParamCaption}\item[{\textbf{ Rectangle}}]{rect1}{, }\item[{\textbf{ Rectangle}}]{rect2}{}\end{DoxyParamCaption})}
+
+
+
+Объединяет два прямоугольника в минимальный охватывающий 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!CalculateArea@{CalculateArea}}
+\index{CalculateArea@{CalculateArea}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{CalculateArea()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a3fdfba1fedc05ae1159c90019f30f80f} 
+override int QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Calculate\+Area (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Вычисляет площадь прямоугольника 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!CalculateSquareOut@{CalculateSquareOut}}
+\index{CalculateSquareOut@{CalculateSquareOut}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{CalculateSquareOut()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a80cd1a4e0777c490ce7621e3032fa7f3} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Calculate\+Square\+Out (\begin{DoxyParamCaption}\item[{out int}]{rect}{}\end{DoxyParamCaption})}
+
+
+
+Расчет площади с ограничением через out-\/параметр 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!CalculateSquareRef@{CalculateSquareRef}}
+\index{CalculateSquareRef@{CalculateSquareRef}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{CalculateSquareRef()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a442250f52f3f43d3b136fd81e6341217} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Calculate\+Square\+Ref (\begin{DoxyParamCaption}\item[{ref int}]{rect}{}\end{DoxyParamCaption})}
+
+
+
+Расчет площади с модификацией ref-\/параметра 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{Display()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a346746f7e13f9e72925f5b85e19af3e7} 
+override void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Выводит координаты углов в консоль 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!Init@{Init}}
+\index{Init@{Init}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{Init()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_ad4951c966ebb8da863129b0e69180972} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Init (\begin{DoxyParamCaption}\item[{int}]{x1}{, }\item[{int}]{y1}{, }\item[{int}]{x2}{, }\item[{int}]{y2}{}\end{DoxyParamCaption})}
+
+
+
+Инициализирует прямоугольник координатами углов 
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!Read@{Read}}
+\index{Read@{Read}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{Read()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a417b7bbaf5c1d076563efe91d6b4a8aa} 
+override void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+Read (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Считывает 4 координаты из консоли 
+
+
+
+\label{doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!bottomRightX@{bottomRightX}}
+\index{bottomRightX@{bottomRightX}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{bottomRightX}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a37937165d37d8dc9e26bb6215c8d1b7f} 
+int QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+bottom\+RightX\hspace{0.3cm}{\ttfamily [private]}}
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!bottomRightY@{bottomRightY}}
+\index{bottomRightY@{bottomRightY}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{bottomRightY}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_ac83a79144dab0213b5d5bedd6e96c6f8} 
+int QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+bottom\+RightY\hspace{0.3cm}{\ttfamily [private]}}
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!topLeftX@{topLeftX}}
+\index{topLeftX@{topLeftX}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{topLeftX}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_a77a83cc075859b8d949029b61af37a6a} 
+int QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+top\+LeftX\hspace{0.3cm}{\ttfamily [private]}}
+
+\index{QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}!topLeftY@{topLeftY}}
+\index{topLeftY@{topLeftY}!QA\_Lab3\_Kolupaev.Rectangle@{QA\_Lab3\_Kolupaev.Rectangle}}
+\doxysubsubsection{topLeftY}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_rectangle_adf8e7b3c14aad3e853027a204337c685} 
+int QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Rectangle.\+top\+LeftY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/\+Repositories/\+Testing/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/lab3/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/src/\textbf{ Rectangle.\+cs}\end{DoxyCompactItemize}

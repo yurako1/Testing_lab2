@@ -1,0 +1,135 @@
+\doxysection{QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program Class Reference}
+\label{class_q_a___lab3___kolupaev_1_1_program}\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+
+
+Главный класс приложения для работы с геометрическими фигурами  
+
+
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \textbf{ Configure\+Console} ()
+\begin{DoxyCompactList}\small\item\em Настраивает консоль для работы с Unicode. \end{DoxyCompactList}\item 
+static void \textbf{ Demo\+Basic\+Rectangle} ()
+\begin{DoxyCompactList}\small\item\em Демонстрирует создание и расчет площади прямоугольника \end{DoxyCompactList}\item 
+static void \textbf{ Demo\+Out\+Ref\+Parameters} ()
+\begin{DoxyCompactList}\small\item\em Демонстрирует работу с out и ref параметрами \end{DoxyCompactList}\item 
+static void \textbf{ Demo\+Rectangle\+Operations} ()
+\begin{DoxyCompactList}\small\item\em Демонстрирует операции с прямоугольниками \end{DoxyCompactList}\item 
+static void \textbf{ Main} (string[$\,$] args)
+\begin{DoxyCompactList}\small\item\em Точка входа в приложение \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Главный класс приложения для работы с геометрическими фигурами 
+
+Демонстрирует\+:
+\begin{DoxyItemize}
+\item Создание и инициализацию прямоугольников
+\item Использование out/ref параметров
+\item Операции с фигурами
+\end{DoxyItemize}
+
+\begin{DoxyParagraph}{Пример вывода\+:}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{-\/-\/-\/\ Пример\ 1:\ Создание\ прямоугольника\ -\/-\/-\/}
+\DoxyCodeLine{Введите\ координаты\ прямоугольника\ (x1\ y1\ x2\ y2):}
+\DoxyCodeLine{2\ 5\ 10\ 1}
+\DoxyCodeLine{Верхний\ левый\ угол:\ (2,\ 5)}
+\DoxyCodeLine{Нижний\ правый\ угол:\ (10,\ 1)}
+\DoxyCodeLine{Площадь:\ 32}
+
+\end{DoxyCode}
+
+\end{DoxyParagraph}
+ 
+
+\label{doc-func-members}
+\doxysubsection{Member Function Documentation}
+\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}!ConfigureConsole@{ConfigureConsole}}
+\index{ConfigureConsole@{ConfigureConsole}!QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+\doxysubsubsection{ConfigureConsole()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_program_abcd48534c3c08c8f45b5a4c917c451bf} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program.\+Configure\+Console (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Настраивает консоль для работы с Unicode. 
+
+Устанавливает\+:
+\begin{DoxyItemize}
+\item Кодировку вывода UTF-\/8
+\item Кодировку ввода UTF-\/8 
+\end{DoxyItemize}\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}!DemoBasicRectangle@{DemoBasicRectangle}}
+\index{DemoBasicRectangle@{DemoBasicRectangle}!QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+\doxysubsubsection{DemoBasicRectangle()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_program_ab75521b66f5ea28d1890c5be2c4efc11} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program.\+Demo\+Basic\+Rectangle (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Демонстрирует создание и расчет площади прямоугольника 
+
+Шаги\+:
+\begin{DoxyEnumerate}
+\item Создает новый прямоугольник
+\item Запрашивает координаты у пользователя
+\item Выводит информацию о фигуре
+\item Рассчитывает площадь 
+\end{DoxyEnumerate}\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}!DemoOutRefParameters@{DemoOutRefParameters}}
+\index{DemoOutRefParameters@{DemoOutRefParameters}!QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+\doxysubsubsection{DemoOutRefParameters()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_program_a672532fd14d06c6f9844b5ac8f7f39ec} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program.\+Demo\+Out\+Ref\+Parameters (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Демонстрирует работу с out и ref параметрами 
+
+Показывает\+:
+\begin{DoxyEnumerate}
+\item Ограничение площади через out-\/параметр
+\item Модификацию значения через ref-\/параметр 
+\end{DoxyEnumerate}\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}!DemoRectangleOperations@{DemoRectangleOperations}}
+\index{DemoRectangleOperations@{DemoRectangleOperations}!QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+\doxysubsubsection{DemoRectangleOperations()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_program_a8a0bb398ef69d04a0992b1d71ca1dcbd} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program.\+Demo\+Rectangle\+Operations (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Демонстрирует операции с прямоугольниками 
+
+Включает\+:
+\begin{DoxyEnumerate}
+\item Создание двух прямоугольников
+\item Их визуализацию
+\item Операцию сложения (объединения) 
+\end{DoxyEnumerate}\index{QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}!Main@{Main}}
+\index{Main@{Main}!QA\_Lab3\_Kolupaev.Program@{QA\_Lab3\_Kolupaev.Program}}
+\doxysubsubsection{Main()}
+{\footnotesize\ttfamily \label{class_q_a___lab3___kolupaev_1_1_program_a26cc2d1f4a6c7e4da4c7f2f521c934d4} 
+void QA\+\_\+\+Lab3\+\_\+\+Kolupaev.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string[$\,$]}]{args}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Точка входа в приложение 
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & Аргументы командной строки\\
+\hline
+\end{DoxyParams}
+
+
+Последовательность работы\+:
+\begin{DoxyEnumerate}
+\item Создание прямоугольника с ручным вводом
+\item Демонстрация out/ref параметров
+\item Операция сложения прямоугольников 
+\end{DoxyEnumerate}
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Projects/\+Repositories/\+Testing/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/lab3/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/\+QA\+\_\+\+Lab3\+\_\+\+Kolupaev/src/\textbf{ Program.\+cs}\end{DoxyCompactItemize}
